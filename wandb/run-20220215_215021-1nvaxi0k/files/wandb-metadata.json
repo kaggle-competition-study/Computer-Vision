@@ -1,0 +1,19 @@
+{
+    "os": "macOS-12.1-arm64-arm-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-02-15T12:50:21.958067",
+    "startedAt": "2022-02-15T12:50:21.138159",
+    "docker": null,
+    "cpu_count": 10,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/Users/silvercity/Library/Jupyter/runtime/kernel-81ad7105-f4ce-4a89-a03b-13e5da4d0f45.json"
+    ],
+    "state": "running",
+    "program": "Untitled-1-9ae7b7d1-3a1e-4eba-b46b-4512f87b465a.ipynb",
+    "root": "/Users/silvercity/Downloads/happy-whale-and-dolphin",
+    "host": "Silverui-MacBookPro.local",
+    "username": "silvercity",
+    "executable": "/opt/homebrew/Caskroom/miniforge/base/bin/python"
+}

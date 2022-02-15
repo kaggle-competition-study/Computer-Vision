@@ -1,0 +1,77 @@
+wandb_version: 1
+
+T_max:
+  desc: null
+  value: 500
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.9.7
+    start_time: 1644929421
+    t:
+      1:
+      - 1
+      - 5
+      2:
+      - 1
+      - 5
+      3:
+      - 1
+      - 2
+      - 15
+      - 16
+      4: 3.9.7
+      5: 0.12.10
+      8:
+      - 1
+      - 4
+      - 5
+device:
+  desc: null
+  value: cpu
+embedding_size:
+  desc: null
+  value: 256
+epochs:
+  desc: null
+  value: 3
+img_size:
+  desc: null
+  value: 256
+learning_rate:
+  desc: null
+  value: 0.0001
+margin:
+  desc: null
+  value: 0
+min_lr:
+  desc: null
+  value: 1.0e-06
+model_name:
+  desc: null
+  value: tf_efficientnet_b0
+n_accumulate:
+  desc: null
+  value: 1
+n_fold:
+  desc: null
+  value: 5
+scheduler:
+  desc: null
+  value: CosineAnnealingLR
+seed:
+  desc: null
+  value: 2021
+train_batch_size:
+  desc: null
+  value: 32
+valid_batch_size:
+  desc: null
+  value: 64
+weight_decay:
+  desc: null
+  value: 1.0e-06
