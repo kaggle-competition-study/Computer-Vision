@@ -13,6 +13,9 @@ The process I've chosen:
 
 
 
+
+
+
 ----------------------------------------
 The summary of the 1st place solution;
   1) Tuning of dynamic margin hyperparameters with Optuna
@@ -31,6 +34,9 @@ The summary of the 1st place solution;
     And they concatenated those two GeM-pooled feature maps and passed them to ArcFace with dynamic margins TWICE.
     (1 for the hyperparameter tuning of the imbalced data (with Optuna), which is too sensitive to the parameters,
      1 for classifying species and it worked better than linear one.)
+
+
+
 
 
 
