@@ -11,6 +11,8 @@ The process I've chosen:
   3) And followed one of the most featured code with ArcFace-ConvNext (70% of accuracy)
 
 
+
+
 ----------------------------------------
 The summary of the 1st place solution;
   1) Tuning of dynamic margin hyperparameters with Optuna
@@ -31,7 +33,9 @@ The summary of the 1st place solution;
      1 for classifying species and it worked better than linear one.)
 
 
-+) What they tried and not worked:
+
+
++) What they tried and not worked (Other options for CV):
   - input 4-channel images with segmentation mask (1st place solution of the last competition)
   - input 6-channel images combining 2 types of images cropped by fullbody and backfin bboxes
   - input rectangle images such as (512, 1024)
